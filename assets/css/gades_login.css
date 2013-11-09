@@ -1,0 +1,260 @@
+/* Global styles */
+
+body {text-align: center}
+body * {text-align: left}
+
+#container {
+  background: white;
+  width: 550px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #004c99;
+  text-align: left;
+  margin: 0 auto;
+  /*min-width: 500px;*/
+}
+
+#banner {
+  background: white;
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  color: #004c99;
+  text-align: left;
+}
+
+#banner img {
+  margin: 0em;
+  float: left;
+  margin-left: 2px;
+  margin-right: 30px;
+}
+
+#banner h1 {
+  margin-left: 20px;
+  margin-top: 60px;
+  font: small-caps 40px/40px "Times New Roman", serif;
+}
+
+#autenticacion {
+  margin-top: 20px;
+  margin-left: 150px;
+  color: black;
+}
+
+#errors{
+  margin-left: 100px;
+  text-align: center;
+  color:red;
+  height:  100px;
+}
+
+#columns {
+  background: white;
+  border-bottom: 2px solid;
+}
+
+#main {
+  margin-left: 200px;
+  padding-top: 4ex;
+  padding-left: 2em;
+  background: white;
+}
+
+#side {
+  float: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 16em;
+  background: white;
+}
+
+#side a {
+  color: #bfb;
+  font-size: small;
+}
+
+/* CSS para el menú derecho */
+#cssmenu {
+  margin-top: 20px;
+  float: left;
+  width: 200px;
+  border-style: solid solid none solid;
+  border-color: #D76100;
+  border-size: 1px;
+  border-width: 1px;
+  padding:0px;
+  }
+  
+  #cssmenu ul{
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  }
+  
+  #cssmenu li a {
+    height: 32px;
+    height: 24px;
+    text-decoration: none;
+    font-weight:normal;
+    color: #9E3C02;
+    display: block;
+    background: url('images/menu4.gif');
+    padding: 8px 0 0 30px;
+    }
+    
+  #cssmenu li a:hover {
+    color: #fff;
+    background: url('images/menu4.gif') 0 -32px;
+    padding: 8px 0 0 30px;
+    }
+    
+  #cssmenu li a.active {
+    color: #fff;
+    background: url('images/menu4.gif') 0 -64px;
+    padding: 8px 0 0 30px;
+    } 
+
+#clear {
+  clear:both;
+}
+
+#footer {
+  background:transparent url('images/HOVER.gif') repeat-x top left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #004c99;
+  color: #004c99;
+  text-align: center;
+}
+
+/* CSS para menú superior 1*/
+#menuup {
+  /*margin-left:300px;*/
+  padding:0;
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:36px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+  background:transparent url('images/OFF.gif') repeat-x top left;
+  font-family:Helvetica,Arial,Verdana,sans-serif;
+  border-bottom:4px solid #004c99;
+  border-left:1px solid #004c99;
+  border-top:1px solid #74b0c6;
+}
+
+#menuup ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:36px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+  background:transparent url('images/OFF.gif') repeat-x top left;
+  font-family:Helvetica,Arial,Verdana,sans-serif;
+  border-bottom:4px solid #004c99;
+  border-top:0px solid #74b0c6;
+}
+#menuup li{
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  }
+#menuup li a{
+  display:block;
+  float:left;
+  color:#6d7078;
+  text-decoration:none;
+  font-weight:bold;
+  padding:12px 20px 0 20px;
+  height:24px;
+  background:transparent url('images/DIVIDER.gif') no-repeat top right;
+  }
+#menuup li a:hover{
+  background:transparent url('images/HOVER.gif') no-repeat top right; 
+  }
+#menuup li a.highlighted{
+  background:#004c99;
+  height:23px;
+  color:white; 
+  }
+
+/* CSS para menú superior 2*/
+#menuup2 {
+  margin-left:300px;
+  padding:0;
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:36px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+  background:transparent url('images/OFF.gif') repeat-x top left;
+  font-family:Helvetica,Arial,Verdana,sans-serif;
+  border-bottom:1px solid #004c99;
+  border-left:1px solid #004c99;
+  border-top:4px solid #004c99;
+}
+
+#menuup2 ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:36px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+  background:transparent url('images/OFF.gif') repeat-x top left;
+  font-family:Helvetica,Arial,Verdana,sans-serif;
+  border-bottom:4px solid #004c99;
+  border-top:0px solid #74b0c6;
+}
+#menuup2 li{
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  }
+#menuup2 li a{
+  display:block;
+  float:left;
+  color:#6d7078;
+  text-decoration:none;
+  font-weight:bold;
+  padding:12px 20px 0 20px;
+  height:24px;
+  background:transparent url('images/DIVIDER.gif') no-repeat top right;
+  }
+#menuup2 li a:hover{
+  background:transparent url('images/HOVER.gif') no-repeat top right; 
+  }
+
+
+/*#highlighted a{
+  display:block;
+  background:transparent url('images/HOVER.gif') no-repeat top right;
+}*/
+
+/*body#home a#homenav,
+body#products a#prodnav,
+body#faq a#faqnav,
+body#contact a#connav {
+color: #fff;
+background: #930;
+}*/
